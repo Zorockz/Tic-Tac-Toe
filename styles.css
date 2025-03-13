@@ -1,0 +1,20 @@
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.board{
+    width: 300px;
+    height: 600px;
+
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    outline: 1px solid black;
+    float: left;
+}
